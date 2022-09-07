@@ -1,0 +1,168 @@
+#container{
+    min-height: 900px;
+    margin-top: 10px;
+    padding: 0;
+    overflow-x: hidden;
+    /* background:linear-gradient( red,rgb(75, 75, 235)) */
+    background-color: black;
+}
+
+#center{ 
+  
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+#logo{
+    display: inline-block;
+    padding: 10px;
+    margin-right: 100%;
+   width: fit-content;
+   /* float: left; */
+}
+
+#head{
+    background:linear-gradient(red,white);
+    border-radius: 1px;
+    border:  50px black solid ;
+    text-align: center;
+    width:100%;
+    padding: 0;
+}
+
+p{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,h2,h3,h4{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+a{
+    stop-color: blueviolet;
+    text-decoration: none;
+}
+h3 a:hover{
+    background-color: blue;
+}
+#heads{
+    background-color: white;
+    border-radius: 1px;
+    border:  10px black solid ;
+    text-align: center;
+    width:100%;
+    padding: 0;
+}
+
+/* this is for displaying boxs of each sections */
+#display{
+    background:linear-gradient(white,red);
+    justify-content: center;   
+    display: flex;
+    padding: 2%;
+
+    
+}
+#display1{
+    background-size: contain;
+    height: 400px;
+    border-radius: 6px;
+    margin-left: 20px;
+    border:  1px black solid ;
+    width: 360px;
+}
+#display2{
+   
+    background-size: contain;
+    height: 400px;
+    border-radius: 6px;
+    margin-left: 20px;
+    border:  1px black solid ;
+    width: 360px;
+}
+
+/* this is for the footter section(that is the ending part) */
+
+#heads1{
+    background:linear-gradient(black);
+    border-radius: 1px;
+    /* border:  50px black solid ; */
+    text-align: center;
+    width:100%;
+    padding: 0;
+}
+#footer1{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+/* this is for mobile designs  *//* this is for mobile designs  *//* this is for mobile designs  *//* this is for mobile designs  */
+
+@media screen and (max-width:900px) {
+    #container{
+       
+        /* margin-top: 10px; */
+        padding: 0;
+        width: 100%;
+        background-color: black;
+        /* background:linear-gradient( red,white) */
+    }
+    #head{
+        background:linear-gradient(red,white);
+        border-radius: 1px;
+        border:  10px black solid ;
+        text-align: center;
+        width:80%;
+        padding: 0;
+    }
+    #logo{
+        margin-top: 20px;
+        width:25%;
+       
+        height: fit-content;
+      
+    }  
+    #display{
+        margin-left: 10px;
+        background:linear-gradient(white,red);
+        justify-content: center;
+        display: flex;
+        max-width: 90%;
+        
+    }
+    #display1{
+        background-size: contain;
+        height: 400px;
+        border-radius: 6px;
+        margin-left: 10px;
+        border:  1px black solid ;
+        width: 360px;
+    }
+     #display2{
+        display: none;
+        background-size: contain;
+        height: 400px;
+        border-radius: 6px;
+        margin-left: 20px;
+        border:  1px black solid ;
+        width: 360px;
+    } 
+    
+#heads1{
+    background:linear-gradient(black);
+    border-radius: 1px;
+    /* border:  50px black solid ; */
+    text-align: center;
+    width:fit-content;
+    padding: 0;
+}
+#footer1{
+    width: 100%;
+    color: white;
+    text-transform: capitalize;
+}
+
+}
